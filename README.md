@@ -1,19 +1,19 @@
 # Quick User Switching Helper
 
-##Summary
+## Summary
 
 Allows you to quickly switch to a specific Windows user with a single click.
 
-##Usage
+## Usage
 
-###Command Line Options
+### Command Line Options
 
 The primary means of using this application is by launching it with specific command line options.  The available command line options are:
  - /u - Required.  The specific user account to connect to
  - /p - Optional.  The password to use to connect to the user account.  If ommitted, the application will bring up a password prompt.
  - /s - Optional.  Specifies a 'secret' value that allows switching users via a PIN instead of the full password.  See below for more details on this option.
 
-###PIN Mode
+### PIN Mode
 
 If you don't want to hard-code your password as a command line option but still want a semi-quick way of switching users without having to type your full password, this mode provides a good middle ground.  You provide the PIN and your full password and the tool will create an encrypted value of your password (called the 'secret' value) that can only be decrypted with the PIN.
 
@@ -27,7 +27,7 @@ To setup PIN mode:
 4. Enter the pin you want to use
 5. You'll be given the 'secret' value.  You can pass this with the /s command line option
 
-##Credits
+## Credits
 
 This application makes use of the following open source projects:
 
